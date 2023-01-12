@@ -1,0 +1,8 @@
+local WhiteL = loadstring(game:HttpGet(""))() --link da whitelist
+local hwid = game:GetService("RbxAnalyticsService"):GetClientId()
+for i,v in pairs(WhiteL) do
+if v == hwid then
+--script aqui dentro
+
+  end
+end
