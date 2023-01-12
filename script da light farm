@@ -1,0 +1,8 @@
+local WhiteL = loadstring(game:HttpGet("https://raw.githubusercontent.com/kaneco1234/Light-Farm-Test-Whitelist/main/whitelist"))() --link da whitelist
+local hwid = game:GetService("RbxAnalyticsService"):GetClientId()
+for i,v in pairs(WhiteL) do
+if v == hwid then
+--script aqui dentro
+
+  end
+end
