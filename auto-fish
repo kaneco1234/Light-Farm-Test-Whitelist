@@ -1,4 +1,4 @@
-local WhiteL = loadstring(game:HttpGet("https://github.com/kaneco1234/Script-Whitelist/blob/main/whitelist"))() --link da whitelist
+local WhiteL = loadstring(game:HttpGet("https://raw.githubusercontent.com/kaneco1234/Script-Whitelist/main/whitelist"))() --link da whitelist
 local hwid = game:GetService("RbxAnalyticsService"):GetClientId()
 for i,v in pairs(WhiteL) do
 if v == hwid then
